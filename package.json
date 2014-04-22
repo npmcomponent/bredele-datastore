@@ -1,41 +1,14 @@
 {
-  "name": "datastore",
-  "version": "1.0.4",
+  "name": "bredele-datastore",
   "description": "Store component is a single wrapper for your data models and collections.",
+  "version": "1.0.4",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
   "dependencies": {
-    "bredele-clone": "^0.3.1",
-    "component-emitter": "~1.1.2",
-    "looping": "^1.0.0",
-    "many": "^0.3.2"
+    "bredele-looping": "git://github.com/npmcomponent/bredele-looping.git",
+    "bredele-clone": "git://github.com/npmcomponent/bredele-clone.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "bredele-many": "git://github.com/npmcomponent/bredele-many.git"
   },
-  "devDependencies": {
-    "zuul": "~1.5.4",
-    "mocha": "~1.12.1"
-  },
-  "scripts": {
-    "test": "zuul -- test/*.js",
-    "test-local": "zuul --local -- test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bredele/datastore.git"
-  },
-  "keywords": [
-    "model",
-    "collections",
-    "store",
-    "data",
-    "localStorage",
-    "data",
-    "object"
-  ],
-  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bredele/datastore/issues"
-  }
+  "license": "MIT"
 }

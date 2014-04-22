@@ -4,10 +4,10 @@
  * @api private
  */
 
-var Emitter = require('component-emitter');
-var clone = require('bredele-clone');
-var each = require('looping');
-var many = require('many');
+// commented out by npm-component: var Emitter = require('component-emitter');
+// commented out by npm-component: var clone = require('bredele-clone');
+var each = require('bredele-looping');
+var many = require('bredele-many');
 try {
   var storage = window.localStorage;
 } catch(_) {
